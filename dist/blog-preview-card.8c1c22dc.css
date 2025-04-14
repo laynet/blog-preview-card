@@ -1,0 +1,67 @@
+*, :after, :before {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+@font-face {
+  font-family: tp-1;
+  font-weight: 800;
+  line-height: 150%;
+  font-size: 1.5rem;
+  src: url("Figtree-VariableFont_wght.26c9d330.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: tp-2;
+  font-weight: 500;
+  line-height: 150%;
+  font-size: 1rem;
+  src: url("Figtree-VariableFont_wght.26c9d330.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: tp-3;
+  font-weight: 500;
+  line-height: 150%;
+  font-size: .875rem;
+  src: url("Figtree-VariableFont_wght.26c9d330.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: tp-3-bold;
+  font-weight: 800;
+  line-height: 150%;
+  font-size: .875rem;
+  src: url("Figtree-VariableFont_wght.26c9d330.ttf") format("truetype");
+}
+
+body {
+  background-color: #f4d04e;
+  justify-content: center;
+  align-self: center;
+  display: flex;
+}
+
+.card {
+  background-color: #fff;
+  border: 1px solid #000;
+  border-radius: 20px;
+  flex-direction: column;
+  max-width: 90%;
+  display: flex;
+  box-shadow: 10px 10px #000;
+}
+
+.image-container {
+  border-radius: 20px;
+  width: 100%;
+  padding: 10px;
+}
+/*# sourceMappingURL=blog-preview-card.8c1c22dc.css.map */

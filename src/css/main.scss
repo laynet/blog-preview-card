@@ -1,0 +1,74 @@
+//reset
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+// TYPOGRAPHY
+
+@font-face {
+    font-family: "tp-1";
+    font-weight: 800;
+    line-height: 150%;
+    font-size: 1.5rem;
+    src: url("/src/assets/fonts/Figtree-VariableFont_wght.ttf") format("truetype");
+}
+@font-face {
+    font-family: "tp-2";
+    font-weight: 500;
+    line-height: 150%;
+    font-size: 1rem;
+    src: url("/src/assets/fonts/Figtree-VariableFont_wght.ttf") format("truetype");
+}
+@font-face {
+    font-family: "tp-3";
+    font-weight: 500;
+    line-height: 150%;
+    font-size: .875rem;
+    src: url("/src/assets/fonts/Figtree-VariableFont_wght.ttf") format("truetype");
+}
+@font-face {
+    font-family: "tp-3-bold";
+    font-weight: 800;
+    line-height: 150%;
+    font-size: .875rem;
+    src: url("/src/assets/fonts/Figtree-VariableFont_wght.ttf") format("truetype");
+}
+
+
+$yellow: #F4D04E;
+$gray-950: #111111;
+$gray-500: #6B6B6B;
+$white: #FFFFFF;
+
+body{
+    background-color: $yellow;
+    display: flex;
+    justify-content:center;
+    align-self:center
+}
+.card {
+    border: 1px solid black;
+    border-radius: 20px;
+    box-shadow: 10px 10px black;
+    background-color: $white;
+    display: flex;
+    flex-direction: column;
+    max-width: 90%;
+}
+.image-container {
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+}
+
